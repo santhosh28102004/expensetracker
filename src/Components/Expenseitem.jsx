@@ -1,6 +1,6 @@
 import { toast } from "react-toastify"
 
-const ExpenseItem=(props)=>{
+const Expenseitem=(props)=>{
     const {i,deletetransaction,edittransaction}=props
     const{id,title,amount}=i
     const classname=amount >0?"positive":"negative"

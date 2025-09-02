@@ -1,4 +1,4 @@
-import ExpenseItem from "./ExpenseItem";
+import Expenseitem from "./Expenseitem";
 
 const History = (props) => {
     const { transaction,deletetransaction,edittransaction} = props
