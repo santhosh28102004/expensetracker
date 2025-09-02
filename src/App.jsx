@@ -1,5 +1,5 @@
 import { ToastContainer } from "react-toastify"
-import Container from "./components/Container.jsx";
+import Container from "./Components/Container"
 
 
 const App=()=>{
