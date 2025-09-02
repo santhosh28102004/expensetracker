@@ -1,5 +1,5 @@
 import { ToastContainer } from "react-toastify"
-import Container from "./components/Container"
+import Container from "./Components/Container"
 
 const App=()=>{
   return(
