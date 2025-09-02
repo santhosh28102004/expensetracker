@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import History from "./History";
 import ExpenseForm from "./ExpenseForm";
 import { toast } from "react-toastify";
-import BalanceContainer from "./BalanceContainer";
+import BalanceContainer from "../BalanceContainer";
 const INITIAL = []
 const Container = () => {
     const [transaction, settransaction] = useState(INITIAL);
