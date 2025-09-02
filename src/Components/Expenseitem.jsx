@@ -22,4 +22,4 @@ const Expenseitem=(props)=>{
         </div>
     )
 }
-export default ExpenseItem;
+export default Expenseitem;

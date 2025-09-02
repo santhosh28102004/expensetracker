@@ -8,7 +8,7 @@ const History = (props) => {
         <div className="history">
         <h3>History</h3>
         {transaction.map((i)=>{
-            return <ExpenseItem key={i.id} i={i} deletetransaction={deletetransaction} edittransaction={edittransaction}/>
+            return <Expenseitem key={i.id} i={i} deletetransaction={deletetransaction} edittransaction={edittransaction}/>
         })}
         </div>
 
